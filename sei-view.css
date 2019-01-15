@@ -1,0 +1,255 @@
+table.infraTable {
+    background-color: #fff !important;
+    border-spacing: initial !important;
+}
+table.infraTable td {
+    padding: 0.5em 0.2em !important;
+}
+table th.infraTh {
+    padding: 0.5em 0.2em !important;
+    background: #eaeaea !important;
+}
+caption.infraCaption {
+    border: none !important;
+}
+.infraDivCheckbox {
+    margin: 10px 0;
+}
+#lblOuModeloFavorito {
+    display: inline;
+}
+#btnEscolherDocumentoTextoBase {
+    visibility: hidden;
+}
+#selInteressados, 
+#selAssuntos,
+#selUnidades,
+#selInteressadosProcedimento {
+    margin-top: 10px;
+    height: 70px !important;
+}
+#divOpcoesInteressados,
+#divOpcoesUnidades, 
+#divOpcoesAssuntos {
+    position: absolute !important;
+    left: 91% !important;
+    margin-top: -70px !important;
+}
+#lblHipoteseLegal {
+    clear: both;
+    padding-top: 10px;
+}
+div.tituloProcessoDocumento,
+div.tituloProcessoDocumento label {
+    background-color: #fafafa !important;
+}
+fieldset {
+    border: 2px solid #eaeaea !important;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+fieldset legend {
+    background: #eaeaea !important;
+    color: #666 !important;
+    padding: 5px 10px;
+    font-size: 15pt;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #fff;
+    margin-left: 20px !important;
+    border: none !important;
+}
+.infraLabelCheckbox {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+.infraDivRadio {
+    display: block;
+    margin: 10px 0;
+}
+.infraDivRadio label {
+    font-size: 10pt;
+    margin: 0 10px;
+    padding: 0;
+    font-weight: normal;
+}
+tr.infraTrEscura, 
+td.infraTdEscura {
+    background-color: #fafafa !important;
+}
+tr.infraTrSelecionada, 
+tr.infraTrSelecionada td, 
+td.infraTdSelecionada {
+    background-color: #eaeaea !important;
+}
+.newButton {
+    border: none !important;
+    font-size: 1.6em !important;
+    padding: 5px 15px !important;
+    margin: 0 10px !important;
+    height: 2em !important;
+    border-radius: 3px;
+    background-color: #fafafa !important;
+    color: #339AF0 !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+.newButton:hover {
+	background-color: #eee !important;
+}
+.newButton i {
+    margin-right: 5px;
+    font-size: 1em;
+    color: #339AF0 !important;
+}
+.newButton .infraTeclaAtalho {
+    color: #339AF0 !important;
+    font-weight: bold;
+}
+div.infraBarraLocalizacao {
+    padding-bottom: .3em;
+    font-size: 4em;
+    color: #888;
+    font-family: Calibri;
+}
+#btnEscolherDocumentoTextoBase, 
+#divArvoreHtml div,
+#divArvoreHtml label,
+#divArvoreHtml select,
+#divArvoreHtml fieldset,
+#divArvoreHtml .infraText,
+#divArvoreHtml textarea,
+#imgCalDataDecisao,
+#imgPesquisarInteressados,
+#btnPesquisar,
+#txtIdentificacaoProtocolo,
+form div,
+form label,
+form select,
+form fieldset,
+form .infraText,
+form textarea {
+    position: initial !important;
+    left: initial !important;
+    top: initial !important;
+    height: initial !important;
+}
+#btnPesquisar {
+    width: initial !important;
+}
+#detalhes {
+    padding: 20px 30px !important;
+    margin: 0 0 0 300px !important;
+    border: none !important;
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px rgba(33,33,33,0.1);
+}
+#detalhes #divInfraBarraLocalizacao {
+    width: 100%;
+}
+#divProtocoloExibir,
+#divTipoProcedimento,
+#divDescricao,
+#divInteressados {
+    height: auto !important;
+}
+#divInformacao {
+    line-height: 15pt;
+}
+.infraText,
+.infraSelect,
+textarea {
+    padding: 8px;
+    border: none;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid #ccc !important;
+}
+div#divProtocoloExibir {
+    display: inline-block;
+}
+.infraSelect {
+    height: 30px !important;
+}
+.infraReadOnly {
+    background-color: #eaeaea !important;
+}
+label {
+    font-size: 12pt;
+    margin: 15px 0 10px 5px;
+    display: block;
+    font-weight: bold;
+}
+label span {
+    font-weight: bold !important;
+}
+#lblProtocoloExibir,
+#lblDtaGeracaoExibir {
+    display: inline-block !important;
+}
+.iconMenuNew {
+	font-size: 2.3em;
+	padding: 0.3em 0.2em;
+	border-radius: 5px;
+	margin: 0 2px;
+	width: 1.5em;
+	display: inline-block;
+	text-align: center;
+}
+.iconMenuNew i {
+	color: #339AF1;
+}
+.iconMenuNew:hover {
+	background-color: #eee;
+}
+.tippy-content {
+	color: #fff !important;
+}
+a.newLink {
+	margin: 0 5px;
+	color: #666;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+a.newLink:hover {
+	background-color: #eee;
+}
+.newLink i {
+	font-size: 1.2em;
+	color: #666;
+	margin: 0 5px;
+}
+i.pretoColor {
+	color: #000000 !important;
+}
+i.brancoColor {
+	color: #FFFFFF !important;
+}
+i.cinzaColor {
+	color: #C0C0C0 !important;
+}
+i.vermelhoColor {
+	color: #E46E64 !important;
+}
+i.amareloColor {
+	color: #FFF200 !important;
+}
+i.verdeColor {
+	color: #00FF00 !important;
+}
+i.azulColor {
+	color: #4285F4 !important;
+}
+i.rosaColor {
+	color: #FF1CAE !important;
+}
+i.roxoColor {
+	color: #68339B !important;
+}
+i.cianoColor {
+	color: #00FFFF !important;
+}
