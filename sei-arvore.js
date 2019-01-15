@@ -11,8 +11,8 @@ $(document).ready(function() {
             var _this = $( this );
         	var src = _this.attr('src');
         	var title = _this.attr('title');
-            //var titleLinkCheck = parent.getTitleLink(_this);
-            var titleLinkCheck = '';
+            var titleLinkCheck = parent.getTitleLink(_this);
+            //var titleLinkCheck = '';
 
             if (src.indexOf('folder.gif') !== -1) {
         		_this.hide().closest('a').addClass('newLink tooltipInit').attr('title',titleLinkCheck).append('<i class="fas fa-folder"></i>');
